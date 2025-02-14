@@ -10,6 +10,7 @@ func factorial(n int) int {
 	if n == 0 {
 		return 1
 	}
+
 	// 遞回調用
 	return n * factorial(n-1)
 }
