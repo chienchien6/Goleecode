@@ -1,4 +1,4 @@
-package binarySearch
+package main
 
 // 时间复杂度 O(logn)
 func search(nums []int, target int) int {
